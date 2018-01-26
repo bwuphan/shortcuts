@@ -1,0 +1,32 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+# name = Bobby Phan
+# email = bwuphan@gmail.com
+[user]
+  name = bwuphan
+  email = bwuphan@gmail.com
+[alias]
+  ci   = commit
+  st   = status
+  br   = branch
+  co   = checkout
+  po   = push origin
+  poh  = push origin HEAD
+  prum = pull rebase upstream master
+  rsh  = reset --hard
+  a    = add
+  p    = pull
+  m    = merge
+
+[credential]
+  helper = osxkeychain
+[core]
+  excludesfile = /Users/bobbyphan/.gitignore_global
+[merge]
+  tool = kdiff3
+[mergetool]
+  keepBackup = false
+[mergetool "meld"]
+  path = /Applications/meld.app/Contents/MacOS/meld
+  trustExitCode = false
