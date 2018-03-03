@@ -11,12 +11,16 @@
   st   = status
   br   = branch
   co   = checkout
+  coh  = checkout HEAD --
+  gcob = git checkout -b
   po   = push origin
   poh  = push origin HEAD
+  cim  = commit -m
+  gfo  = git fetch origin
   prum = pull rebase upstream master
   rsh  = reset --hard
   a    = add
-  p    = pull
+  pl   = pull
   m    = merge
 
 [credential]
@@ -27,6 +31,5 @@
   tool = kdiff3
 [mergetool]
   keepBackup = false
-[mergetool "meld"]
-  path = /Applications/meld.app/Contents/MacOS/meld
+[mergetool "kdiff3"]
   trustExitCode = false
