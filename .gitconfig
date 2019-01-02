@@ -24,6 +24,7 @@
   m    = merge
   r    = reset
   suir = submodule update --init --recursive
+  tls  = tag -l --sort=-version:refname
 
 [credential]
   helper = osxkeychain
