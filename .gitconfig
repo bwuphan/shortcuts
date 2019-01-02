@@ -22,6 +22,7 @@
   a    = add
   pl   = pull
   m    = merge
+  r    = reset
   suir = submodule update --init --recursive
 
 [credential]
