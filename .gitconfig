@@ -22,6 +22,7 @@
   a    = add
   pl   = pull
   m    = merge
+  suir = submodule update --init --recursive
 
 [credential]
   helper = osxkeychain
